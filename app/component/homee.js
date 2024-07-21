@@ -131,7 +131,7 @@ export default function Homee() {
         <a
           href=""
           className="text-center px-6 py-3 text-white font-semibold bg-[#A6B5FF] rounded-lg  ">
-          TRILLY MEMES
+          WINK MEMES
         </a>
       </div>
     </div>
