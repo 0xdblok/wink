@@ -40,7 +40,9 @@ export default function Homee() {
       </div>
       <div className="flex justify-center pt-8">
         {" "}
-        <a className="text-center px-6 py-3 text-white font-semibold bg-[#A6B5FF] rounded-lg  ">
+        <a
+          href=""
+          className="text-center px-6 py-3 text-white font-semibold bg-[#A6B5FF] rounded-lg  ">
           BUY SOME $WICK
         </a>
       </div>
@@ -126,7 +128,9 @@ export default function Homee() {
       </div>
       <div className="flex justify-center pt-8">
         {" "}
-        <a className="text-center px-6 py-3 text-white font-semibold bg-[#A6B5FF] rounded-lg  ">
+        <a
+          href=""
+          className="text-center px-6 py-3 text-white font-semibold bg-[#A6B5FF] rounded-lg  ">
           TRILLY MEMES
         </a>
       </div>
