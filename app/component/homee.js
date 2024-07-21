@@ -12,7 +12,7 @@ import "../globals.css";
 
 export default function Homee() {
   return (
-    <div className="bg-custom-bg pb-8 font-playwrite ">
+    <div className="bg-custom-bg pb-8 font-serif font-bold">
       <div className="flex justify-center pt-8 ">
         <nav className="flex bg-[#A6B5FF] gap-14 px-10 py-3 rounded-xl text-white font-semibold">
           <a>Buy</a>
