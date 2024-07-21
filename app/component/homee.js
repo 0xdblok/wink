@@ -10,7 +10,7 @@ import birdeye from "../asset/birdeye.jpg";
 import hero from "../asset/hero.jpg";
 export default function Homee() {
   return (
-    <div className="bg-custom-bg pb-8 ">
+    <div className="bg-custom-bg pb-8 font-sans ">
       <div className="flex justify-center pt-8 ">
         <nav className="flex bg-[#A6B5FF] gap-14 px-10 py-3 rounded-xl text-white font-semibold">
           <a>Buy</a>
@@ -31,9 +31,9 @@ export default function Homee() {
         </div>
       </div>
       <div>
-        <p className="text-center text-white font-semibold pt-8">
-          $WINK IS THE CUTEST CAT ON SOLANA, ON A MISSION TO BE WORTH TRILLYONS
-          AND TRILLYONS!
+        <p className="text-center text-white font-semibold pt-8 px-20 lg:px-[300px]">
+          $WINK IS THE CUTEST CAT ON SOLANA, ON A MISSION TO BE WORTH MORE AND
+          MORE!
         </p>
       </div>
       <div className="flex justify-center pt-8">
