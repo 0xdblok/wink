@@ -41,13 +41,15 @@ export default function Homee() {
       <div className="flex justify-center pt-8">
         {" "}
         <a
-          href=""
+          href="https://pump.fun/DD84KPcKimKiLRpfZjGiYracHbWQoTRQAne3CAKkpump"
           className="text-center px-6 py-3 text-white font-semibold bg-[#A6B5FF] rounded-lg  ">
           BUY SOME $WINK
         </a>
       </div>
       <div className="flex justify-center pt-8">
-        <p className="text-center text-white font-semibold">CONTRACT TBA</p>
+        <p className="text-center text-white font-semibold">
+          https://pump.fun/DD84KPcKimKiLRpfZjGiYracHbWQoTRQAne3CAKkpump
+        </p>
       </div>
       <div className="flex justify-center pt-8">
         <div className="grid grid-cols-4 gap-4 ">
@@ -129,7 +131,7 @@ export default function Homee() {
       <div className="flex justify-center pt-8">
         {" "}
         <a
-          href=""
+          href="https://pump.fun/DD84KPcKimKiLRpfZjGiYracHbWQoTRQAne3CAKkpump"
           className="text-center px-6 py-3 text-white font-semibold bg-[#A6B5FF] rounded-lg  ">
           WINK MEMES
         </a>
