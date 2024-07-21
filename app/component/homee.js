@@ -10,9 +10,9 @@ import birdeye from "../asset/birdeye.jpg";
 import hero from "../asset/hero.jpg";
 export default function Homee() {
   return (
-    <div className="bg-custom-bg ">
+    <div className="bg-custom-bg pb-8 ">
       <div className="flex justify-center pt-8 ">
-        <nav className="flex bg-[#A6B5FF] gap-8 px-8 py-2 rounded-xl text-white font-semibold">
+        <nav className="flex bg-[#A6B5FF] gap-8 px-10 py-3 rounded-xl text-white font-semibold">
           <a>Buy</a>
           <a>Links</a>
           <a>Chart</a>
@@ -21,7 +21,13 @@ export default function Homee() {
       </div>
       <div className="flex justify-center pt-8">
         <div className=" border-4 border-white rounded-xl">
-          <Image src={hero} alt="home" width={300} height={300} />
+          <Image
+            className="width-[350px] height-[350px]"
+            src={hero}
+            alt="home"
+            width={250}
+            height={250}
+          />
         </div>
       </div>
       <div>
@@ -41,13 +47,55 @@ export default function Homee() {
       </div>
       <div className="flex justify-center pt-8">
         <div className="grid grid-cols-4 gap-4 ">
-          <Image src={xx} alt="home" width={50} height={50} />
-          <Image src={telegram} alt="home" width={50} height={50} />
-          <Image src={dexscreener} alt="home" width={50} height={50} />
-          <Image src={birdeye} alt="home" width={50} height={50} />
-          <Image src={gecko} alt="home" width={50} height={50} />
-          <Image src={dextools} alt="home" width={50} height={50} />
-          <Image src={marketcap} alt="home" width={50} height={50} />
+          <Image
+            className="rounded-xl"
+            src={xx}
+            alt="home"
+            width={50}
+            height={50}
+          />
+          <Image
+            className="rounded-xl"
+            src={telegram}
+            alt="home"
+            width={50}
+            height={50}
+          />
+          <Image
+            className="rounded-xl"
+            src={dexscreener}
+            alt="home"
+            width={50}
+            height={50}
+          />
+          <Image
+            className="rounded-xl"
+            src={birdeye}
+            alt="home"
+            width={50}
+            height={50}
+          />
+          <Image
+            className="rounded-xl"
+            src={gecko}
+            alt="home"
+            width={50}
+            height={50}
+          />
+          <Image
+            className="rounded-xl"
+            src={dextools}
+            alt="home"
+            width={50}
+            height={50}
+          />
+          <Image
+            className="rounded-xl"
+            src={marketcap}
+            alt="home"
+            width={50}
+            height={50}
+          />
         </div>
       </div>
       <div className="flex justify-center pt-8">
@@ -57,7 +105,7 @@ export default function Homee() {
       </div>
       <div className="flex justify-center pt-8">
         <div className=" border-4 border-white rounded-xl">
-          <Image src={hero} alt="home" width={300} height={300} />
+          <Image src={hero} alt="home" width={250} height={250} />
         </div>
       </div>
       <div className="flex justify-center pt-8">
