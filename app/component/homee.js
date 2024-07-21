@@ -8,9 +8,11 @@ import dextools from "../asset/dextools.jpg";
 import dexscreener from "../asset/dexscreener.jpg";
 import birdeye from "../asset/birdeye.jpg";
 import hero from "../asset/hero.jpg";
+import "../globals.css";
+
 export default function Homee() {
   return (
-    <div className="bg-custom-bg pb-8 font-mono ">
+    <div className="bg-custom-bg pb-8 player ">
       <div className="flex justify-center pt-8 ">
         <nav className="flex bg-[#A6B5FF] gap-14 px-10 py-3 rounded-xl text-white font-semibold">
           <a>Buy</a>
@@ -47,55 +49,69 @@ export default function Homee() {
       </div>
       <div className="flex justify-center pt-8">
         <div className="grid grid-cols-4 gap-4 ">
-          <Image
-            className="rounded-xl"
-            src={xx}
-            alt="home"
-            width={50}
-            height={50}
-          />
-          <Image
-            className="rounded-xl"
-            src={telegram}
-            alt="home"
-            width={50}
-            height={50}
-          />
-          <Image
-            className="rounded-xl"
-            src={dexscreener}
-            alt="home"
-            width={50}
-            height={50}
-          />
-          <Image
-            className="rounded-xl"
-            src={birdeye}
-            alt="home"
-            width={50}
-            height={50}
-          />
-          <Image
-            className="rounded-xl"
-            src={gecko}
-            alt="home"
-            width={50}
-            height={50}
-          />
-          <Image
-            className="rounded-xl"
-            src={dextools}
-            alt="home"
-            width={50}
-            height={50}
-          />
-          <Image
-            className="rounded-xl"
-            src={marketcap}
-            alt="home"
-            width={50}
-            height={50}
-          />
+          <a href="https://x.com/winkcoinsol">
+            <Image
+              className="rounded-xl"
+              src={xx}
+              alt="home"
+              width={50}
+              height={50}
+            />
+          </a>
+          <a href="https://t.me/winkcoinchat">
+            <Image
+              className="rounded-xl"
+              src={telegram}
+              alt="home"
+              width={50}
+              height={50}
+            />
+          </a>
+          <a href="">
+            <Image
+              className="rounded-xl"
+              src={dexscreener}
+              alt="home"
+              width={50}
+              height={50}
+            />
+          </a>
+          <a href="">
+            <Image
+              className="rounded-xl"
+              src={birdeye}
+              alt="home"
+              width={50}
+              height={50}
+            />
+          </a>
+          <a href="">
+            <Image
+              className="rounded-xl"
+              src={gecko}
+              alt="home"
+              width={50}
+              height={50}
+            />
+          </a>
+          <a href="">
+            <Image
+              className="rounded-xl"
+              src={dextools}
+              alt="home"
+              width={50}
+              height={50}
+            />
+          </a>
+          <a href="">
+            <Image
+              className="rounded-xl"
+              src={marketcap}
+              alt="home"
+              width={50}
+              height={50}
+            />
+          </a>
         </div>
       </div>
       <div className="flex justify-center pt-8">
