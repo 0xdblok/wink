@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        player: ["Playwrite HR", "sans-serif"],
+        playwrite: ['"Playwrite HR"', 'cursive'],
       },
     },
   },
