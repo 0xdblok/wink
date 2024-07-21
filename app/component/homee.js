@@ -22,7 +22,7 @@ export default function Homee() {
         </nav>
       </div>
       <div className="flex justify-center pt-8">
-        <div className=" border-4 border-white rounded-xl">
+        <div className=" border-4 border-white">
           <Image
             className="width-[350px] height-[350px]"
             src={hero}
@@ -122,7 +122,7 @@ export default function Homee() {
         </p>
       </div>
       <div className="flex justify-center pt-8">
-        <div className=" border-4 border-white rounded-xl">
+        <div className=" border-4 border-white ">
           <Image src={hero} alt="home" width={250} height={250} />
         </div>
       </div>
